@@ -33,7 +33,7 @@ class SS:
        from ss import *
     ```
 
-2. Your class should have an __init__ method with an optional parameters for the employee information. 
+2. Your class should have an __init__ method with an optional parameters for the employee information.  
    ```python
     def __init__(self, last=None, first=None, start=None, pay_rate=None, social=None)
    ```
