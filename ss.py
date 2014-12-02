@@ -7,10 +7,7 @@ class SS:
         pass
 
     def __init__(self, ss=None):
-        if ss is None:
-            self.ss = self.getsocial()
-        else:
-            self.ss = self.getsocial(ss)
+        self.ss = self.getsocial(ss)
 
     def validatess(self):
         try:
